@@ -101,7 +101,7 @@ function draw() {
 
   if(mouseIsPressed){
 
-    if(mouseY < sliderY + 15 && mouseY > sliderY - 15
+    if(mouseY < sliderY + 60 && mouseY > sliderY - 60
     && mouseX < 625 && mouseX > 120){
       sliderX = mouseX;
     }
