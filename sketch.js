@@ -105,6 +105,14 @@ function draw() {
     && mouseX < 625 && mouseX > 120){
       sliderX = mouseX;
     }
+    else if(mouseY < sliderY + 60 && mouseY > sliderY - 60
+      && mouseX > 625){
+        sliderX =  625;
+    }
+    else if(mouseY < sliderY + 60 && mouseY > sliderY - 60
+      && mouseX < 120){
+        sliderX =  120;
+    }
 
     distortionManager();
   }
